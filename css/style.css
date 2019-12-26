@@ -29,6 +29,16 @@ body{
 .school .text-info span{
   color:#ccc;
 }
+@media(max-width:992px){
+  .school .text-info{
+    font-size: 11px;
+  }
+  .school .text-info:after{
+    top: 121%;
+    width: 33%;
+    left: 34%;
+  }
+}
 .header{
   width:30%;
   height:70%;
@@ -77,5 +87,26 @@ body{
   -moz-border-radius: 20% !important;
   -webkit-border-radius: 20% !important;
   -o-border-radius: 20% !important;
+
+}
+@media(max-width:992px){
+  .header{
+    width:91%;
+    height:100%;
+    margin:93px 36px;
+    position:inherit;
+  }
+  .header .login img{
+    width:50px;
+    height: 50px;
+    right:94px;
+  }
+  label{
+    font-size: 10px !important;
+  }
+  .header .login input[type="text"],.header .login input[type="password"]{
+    height: 38px;
+    font-size: 12px;
+  }
 
 }

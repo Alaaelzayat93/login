@@ -46,15 +46,18 @@ body{
   /*margin:120px 0 0 400px;*/
   background: #2a3c54;
   padding:60px 30px;
-  top: 21%;
+  top: 23%;
   left: 38%;
   transform: translate(-8%);
   color:#fff; 
   box-shadow:2px 5px #ccc;
 }
+.header .header-text{
+  font-size: 25px;
+}
 .header .login img{
   position: absolute;
-  top: -69%;
+  top: -68%;
   right: 144px;
   border:2px solid rgb(243, 105, 8);
   border-radius: 20% !important;

@@ -1,0 +1,74 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+/**start student form*/
+.student{
+    width: 50% !important;
+    margin:30px auto !important ;
+    background: #2a3c54 !important;
+    height:85vh;
+   
+}
+.student .header-text{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-style: inherit;
+}
+.student img{
+    display: block;
+    margin: 10px auto; 
+    border:2px solid rgb(243, 105, 8);
+  border-radius: 30% !important;
+  -moz-border-radius: 30% !important;
+  -webkit-border-radius: 30% !important;
+  -o-border-radius: 30% !important;
+  padding:10px;
+}
+.student .form-student label{
+    color:#fff;
+    font-size: 20px;
+
+}
+.student .dropdowns #dropdownMenuButton{
+    width:300px !important;
+    margin-right:20px;
+    
+}
+.dropdowns .dropdownmenu .dropdownitem{
+    background-color: #ccc;
+    border: 1px solid #212529;
+    width: 297px;
+}
+
+.student .form-student input[type="text"]{
+    width:80% !important;
+    height: 36px;
+  }
+  .student .form-student input[type="password"]{
+    width:79% !important;
+    height: 36px;
+  }
+  .student .form-student input[type="date"]{
+    width:80% !important;
+    height: 36px;
+  }
+  .student .form-student a.btn{
+    display: block;
+    background:rgb(243, 105, 8);
+    color:#fff;
+    width:96% !important;
+    transition: all 2s ease-in-out;
+  }
+  .student .form-student a.btn:hover{
+    background: none;
+    color:rgb(243, 105, 8);
+    border:2px solid rgb(243, 105, 8);
+    border-radius: 20% !important;
+    -moz-border-radius: 20% !important;
+    -webkit-border-radius: 20% !important;
+    -o-border-radius: 20% !important;
+  
+  }

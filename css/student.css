@@ -11,6 +11,22 @@
     height:85vh;
    
 }
+@media(max-width:992px){
+    .student{
+      width:91% !important;
+      height:470px !important;
+      margin:35px auto;
+    }
+    .student .form-student input[type="text"]{
+      width:61% !important;
+    }
+    .student .dropdowns #dropdownMenuButton{
+        width:132px !important;
+    }
+    .student .form-student input[type="password"]{
+        width:62% !important;
+    }
+}
 .student .header-text{
     font-size: 25px;
     color: #fff;
@@ -34,7 +50,7 @@
 
 }
 .student .dropdowns #dropdownMenuButton{
-    width:310px !important;
+    width:310px;
     margin-right:20px;
     
 }
@@ -45,15 +61,15 @@
 }
 
 .student .form-student input[type="text"]{
-    width:100% !important;
+    width:100%;
     height: 36px;
   }
   .student .form-student input[type="password"]{
-    width:100% !important;
+    width:100% ;
     height: 36px;
   }
   .student .form-student input[type="date"]{
-    width:100% !important;
+    width:100% ;
     height: 36px;
   }
   .student .form-student a.btn{

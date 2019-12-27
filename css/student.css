@@ -30,10 +30,11 @@
 .student .form-student label{
     color:#fff;
     font-size: 20px;
+    width:30%;
 
 }
 .student .dropdowns #dropdownMenuButton{
-    width:300px !important;
+    width:310px !important;
     margin-right:20px;
     
 }
@@ -44,22 +45,22 @@
 }
 
 .student .form-student input[type="text"]{
-    width:80% !important;
+    width:100% !important;
     height: 36px;
   }
   .student .form-student input[type="password"]{
-    width:79% !important;
+    width:100% !important;
     height: 36px;
   }
   .student .form-student input[type="date"]{
-    width:80% !important;
+    width:100% !important;
     height: 36px;
   }
   .student .form-student a.btn{
     display: block;
     background:rgb(243, 105, 8);
     color:#fff;
-    width:96% !important;
+    width:100% !important;
     transition: all 2s ease-in-out;
   }
   .student .form-student a.btn:hover{

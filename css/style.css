@@ -57,7 +57,7 @@ body{
 }
 .header .login img{
   position: absolute;
-  top: -68%;
+  top: -51%;
   right: 144px;
   border:2px solid rgb(243, 105, 8);
   border-radius: 20% !important;
@@ -69,18 +69,26 @@ body{
   transform:rotate(20deg);
   
 }
+.header .login label{
+  width:40%;
+}
 .header .login input[type="text"]{
-  width:72% !important;
+  width:100% !important;
 }
 .header .login input[type="password"]{
-  width:69% !important;
+  width:100% !important;
 }
 .header .login a.btn{
   display: block;
   background:rgb(243, 105, 8);
   color:#fff;
-  width:91% !important;
+  width:100% !important;
   transition: all 2s ease-in-out;
+  border:2px solid rgb(243, 105, 8);
+  border-radius: 10% !important;
+  -moz-border-radius: 10% !important;
+  -webkit-border-radius: 10% !important;
+  -o-border-radius: 10% !important;
 }
 .header .login a.btn:hover{
   background: none;
@@ -92,7 +100,8 @@ body{
   -o-border-radius: 20% !important;
 
 }
-@media(max-width:992px){
+@media(max-width:500px){
+
   .header{
     width:91%;
     height:100%;
@@ -113,3 +122,4 @@ body{
   }
 
 }
+/***2media*/

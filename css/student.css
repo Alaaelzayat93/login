@@ -11,7 +11,7 @@
     height:85vh;
    
 }
-@media(max-width:992px){
+@media(max-width:500px){
     .student{
       width:91% !important;
       height:470px !important;
@@ -27,6 +27,23 @@
         width:62% !important;
     }
 }
+/*media for tablet*/
+@media all and (min-width: 
+
+480px) and (max-width: 560px){ 
+    .student{
+        width:100% !important;
+    }
+ }
+ /*tablet*/
+ @media all and (min-width: 
+
+560px) and (max-width: 700px){
+    .student{
+        width:100% !important;
+}
+}
+
 .student .header-text{
     font-size: 25px;
     color: #fff;
@@ -89,3 +106,4 @@
     -o-border-radius: 20% !important;
   
   }
+

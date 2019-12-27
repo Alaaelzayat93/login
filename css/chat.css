@@ -3,7 +3,7 @@
     background: #2a3c54;
     width: 80%;
     padding: 5%;
-    margin: 20px auto;
+    margin: 39px auto;
  }
  
  
@@ -20,7 +20,7 @@
   /* Darker chat container */
   .darker {
     border-color: #ccc;
-    background-color: #ddd;
+    background-color: #808476;
   }
   
   /* Clear floats */

@@ -10,6 +10,20 @@ body{
   
   /*end body*/
 }
+/*start school and text*/
+.school .line{
+  width: 200px;
+    background: #ddd;
+    height: 1px;
+    margin: auto;
+}
+.school .line span{
+  display: block;
+    width: 100px;
+    background: rgb(243, 105, 8);
+    height: 4px;
+    margin: auto;
+}
 /**start student form*/
 .student{
     width: 50% !important;

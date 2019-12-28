@@ -19,8 +19,8 @@
   
   /* Darker chat container */
   .darker {
-    border-color: #ccc;
-    background-color: #808476;
+    border-color: rgb(243, 105, 8);
+    background-color: #ccc;
   }
   
   /* Clear floats */

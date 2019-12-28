@@ -1,0 +1,95 @@
+/*Media Query for Form*/
+
+@media all and (max-width: 1280px) {
+.student .dropdowns #dropdownMenuButton{
+ width: 23vw;;
+float: left;
+display: block;
+padding: 8px 45px;
+margin: 0 50px;
+}
+}
+
+@media all and (min-width:1200px){ 
+.student .dropdowns #dropdownMenuButton{width: 22.5vw;margin: 0}
+.d-flex{display: flex!important;
+    flex-direction: row;
+    justify-content: space-between;}
+}
+
+
+@media all and (min-width: 960px) and (max-width: 1199px) { 
+.student .dropdowns #dropdownMenuButton{margin: 0 6px;}
+.form-student * {margin: 6px auto;}
+.student .form-student label.mr-3{width: 30%}
+.student .form-student label{width: 100%;}
+.student .form-student input[type="text"],.student .form-student input[type="password"] {
+    width:auto;
+    height: 36px;
+}
+
+ }
+
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+.student .dropdowns #dropdownMenuButton{width:19vw;margin: 0 20px;}
+.student .form-student input[type="text"]{width: 66%}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px){ 
+.student .form-student label{width: 28%;font-size: 15px;}
+.student .form-student input[type="text"]{width: 29vw;}
+.student .form-student input[type="password"]{width: 29vw}
+ .student .dropdowns #dropdownMenuButton{width: 20vw;margin: 0 7px;}
+ .student .form-student input{font-size: 14px;}
+ .dropdown-menu{min-width: 22vw;}
+}
+
+@media all and (max-width: 599px) { 
+ 
+
+
+     .student{height: auto;}
+     .student .form-student label{width: 100%;font-size: 16px;}
+     .student .form-student input{font-size: 11px;}
+     label, input 
+     {display:block;text-align: center;margin:auto;}
+     .student .dropdowns #dropdownMenuButton{  width: 18vw;padding: 5px;margin: 0 4px;}
+
+     .student .form-student input[type="date"] { width: 50vw;}
+
+ }
+
+@media all and (max-width: 479px) { 
+
+.student{margin: 1px auto !important;width:60% !important}
+.dropdown-menu{min-width: 16vw;}
+.school .text-info{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+.dropdown-menu{
+        min-width: 23vw;
+        padding: 7px;
+        margin:auto;
+        font-size: 1rem;
+        color: #212529;
+        text-align: center;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.15);
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        cursor: pointer;
+}
+.mb-3, .my-3{margin:10px 0 !important;}
+.form-student * {display:block !important}
+}
+
